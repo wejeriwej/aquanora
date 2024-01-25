@@ -1,0 +1,261 @@
+#topheader {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: lightcyan;
+    height: 170px;
+
+
+    background-image: url('backgroundforlogo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+  }
+  
+  #logo {
+    margin-left: 0px;
+       
+  }
+  
+  .logoplacement{
+    text-align: center;
+  }
+  
+  .nav-area{
+    
+    padding: 5px;
+    
+    /*display: inline-block; */
+  }
+  
+  /*#positionofeachheaderbtn {
+    margin-left: 20%
+  }*/
+  
+  
+  
+  
+  
+  li {
+    list-style-position: outside;
+  }
+  
+  
+  
+  #casebytopiclayout li{
+    padding: 0px;
+    
+  }
+  
+  
+  
+  
+  #headerplacement{
+    width: 100%;
+  
+  }
+  
+ 
+
+
+
+
+  
+  
+  #page-description {
+    margin-left: 3.5%;
+    margin-top: 10px;
+    margin-right: 3.5%;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  
+  
+  
+  #review-section ul li {
+    list-style: '- ';
+  }
+  
+
+  #logoduringconsultation{
+    top: 2.5%;
+    right: 75%;
+    position: absolute;
+    z-index: 1;
+    height: 5%;
+    width: 8%;
+    display: none;
+    opacity: 0.3;
+  }
+  
+  
+  #navigationtings li{
+    padding-right: 125px;
+    display : in-line;
+    
+  }
+  
+ 
+  
+      @media screen and (max-width: 950px) {
+        #navigationtings li{
+          padding-right: 110px;      
+        }}
+
+       
+          @media screen and (max-width: 850px) {
+            #navigationtings li{
+              padding-right: 90px;      
+            }}
+
+            @media screen and (max-width: 650px) {
+              #navigationtings li{
+                padding-right: 70px;
+              }}
+            
+
+
+
+        a {
+            font-size: 18.5px;
+            text-transform: uppercase;
+        }
+        
+
+
+
+        @media screen and (max-width: 600px) {
+          a {
+            font-size: 15px;   
+          }}
+        
+        
+        .nav-area {
+            background: #262626;
+          
+        }
+        .nav-area:after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+        .nav-area ul {
+            list-style: none;
+            margin: 0;
+          text-align: center;
+        }
+        .nav-area>ul>li {
+            
+            position:relative;
+          display: inline-block;
+          
+        }
+        .nav-area ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 20px;
+            display: block;
+        }
+        
+        @media screen and (max-width: 1000px) {
+          .nav-area ul li a {
+            padding: 15px 10px;
+          }}
+        
+          @media screen and (max-width: 600px) {
+            .nav-area ul li a {
+              padding: 15px 0px;
+            }}
+        
+
+
+
+
+
+        .nav-area ul li:hover a {
+            background: #34495e;
+        }
+        .nav-area ul ul {
+            position: absolute;
+            padding: 0;
+            min-width: 160px;
+            display: none;
+            top: 100%;
+            left: 0;
+        }
+        .nav-area ul li:hover>ul {
+            display: block;
+        }
+        .nav-area ul ul li:hover a {
+            background: #262626;
+        }
+        .nav-area ul ul li {
+            position: relative;
+        }
+        .nav-area ul ul ul {
+            top: 0;
+            left: 100%;
+        }
+        .nav-area ul ul ul li:hover a {
+            background: #34495e;
+        }
+
+
+
+
+
+
+
+
+
+
+body{
+        background-image: url('backgroundforlogo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 60;
+}
+
+
+
+        #mainbody{
+          margin-left: 20%;
+          margin-right: 20%;
+          
+        }
+
+
+        @media screen and (max-width: 1200px) {
+          #mainbody {
+            margin-left: 15%;
+            margin-right: 15%;
+          }}
+
+          @media screen and (max-width: 1000px) {
+            #mainbody {
+              margin-left: 10%;
+              margin-right: 10%;
+            }}
+
+            @media screen and (max-width: 800px) {
+              #mainbody {
+                margin-left: 5%;
+                margin-right: 5%;
+              }}
+
+              @media screen and (max-width: 600px) {
+                #mainbody {
+                  margin-left: 2.5%;
+                  margin-right: 2.5%;
+                }}
+
+
+
+
+        #tag{
+          width: 30%;
+          display: inline;
+          float: right;
+        }
